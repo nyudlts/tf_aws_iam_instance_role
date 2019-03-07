@@ -13,5 +13,6 @@ resource "aws_iam_role" "role" {
 
 resource "aws_iam_instance_profile" "instance_profile" {
   name = "${var.instance_profile_name}"
+  path = "${var.instance_profile_path}"
   role = "${aws_iam_role.role.name}"
 }

@@ -7,3 +7,7 @@ variable "builtby" {
 }
 
 variable "instance_profile_name" {}
+
+variable "instance_profile_path" {
+  default = "/"
+}
