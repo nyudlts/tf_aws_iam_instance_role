@@ -11,7 +11,7 @@ resource "aws_iam_role" "role" {
   }
 }
 
-resource "aws_iam_instance_profile" "archivesspace_instance_profile" {
+resource "aws_iam_instance_profile" "instance_profile" {
   name = "${var.instance_profile_name}"
   role = "${aws_iam_role.role.name}"
 }
