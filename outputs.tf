@@ -1,52 +1,52 @@
 // !+ archivesspace instance role and policies
 output "role_arn" {
-  value = "aws_iam_role.archivesspace_role.arn"
+  value = "${aws_iam_role.archivesspace_role.arn}"
 }
 
 output "role_create_date" {
-  value = "aws_iam_role.archivesspace_role.create_date"
+  value = "${aws_iam_role.archivesspace_role.create_date}"
 }
 
 output "role_description" {
-  value = "aws_iam_role.archivesspace_role.description"
+  value = "${aws_iam_role.archivesspace_role.description}"
 }
 
 output "role_id" {
-  value = "aws_iam_role.archivesspace_role.id"
+  value = "${aws_iam_role.archivesspace_role.id}"
 }
 
 output "role_name" {
-  value = "aws_iam_role.archivesspace_role.name"
+  value = "${aws_iam_role.archivesspace_role.name}"
 }
 
 output "role_unique_id" {
-  value = "aws_iam_role.archivesspace_role.unique_id"
+  value = "${aws_iam_role.archivesspace_role.unique_id}"
 }
 
 output "instance_profile_id" {
-  value = "aws_iam_role.archivesspace_instance_profile.id"
+  value = "${aws_iam_role.archivesspace_instance_profile.id}"
 }
 
 output "instance_profile_arn" {
-  value = "aws_iam_role.archivesspace_instance_profile.arn"
+  value = "${aws_iam_role.archivesspace_instance_profile.arn}"
 }
 
 output "instance_profile_create_date" {
-  value = "aws_iam_role.archivesspace_instance_profile.create_date"
+  value = "${aws_iam_role.archivesspace_instance_profile.create_date}"
 }
 
 output "instance_profile_name" {
-  value = "aws_iam_role.archivesspace_instance_profile.name"
+  value = "${aws_iam_role.archivesspace_instance_profile.name}"
 }
 
 output "instance_profile_path" {
-  value = "aws_iam_role.archivesspace_instance_profile.path"
+  value = "${aws_iam_role.archivesspace_instance_profile.path}"
 }
 
 output "instance_profile_role" {
-  value = "aws_iam_role.archivesspace_instance_profile.role"
+  value = "${aws_iam_role.archivesspace_instance_profile.role}"
 }
 
 output "instance_profile_unique_id" {
-  value = "aws_iam_role.archivesspace_instance_profile.unique_id"
+  value = "${aws_iam_role.archivesspace_instance_profile.unique_id}"
 }
