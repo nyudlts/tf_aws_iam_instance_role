@@ -12,7 +12,7 @@ resource "aws_iam_role" "role" {
 }
 
 resource "aws_iam_role_policy" "role_policy" {
-  name   = "${var.role_policy}"
+  name   = "${var.role_policy}_policy"
   policy = "${file("${var.role_policy}")}"
 }
 
