@@ -1,10 +1,12 @@
 variable "role_name" {}
 variable "description" {}
-variable "policy" {}
+variable "assume_role_policy" {}
 
 variable "builtby" {
   default = "Terraform"
 }
+
+variable "role_policy" {}
 
 variable "instance_profile_name" {}
 

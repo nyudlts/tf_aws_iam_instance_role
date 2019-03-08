@@ -23,7 +23,7 @@ output "role_unique_id" {
   value = "${aws_iam_role.role.unique_id}"
 }
 
-#
+// instance profile
 output "instance_profile_id" {
   value = "${aws_iam_instance_profile.instance_profile.id}"
 }
