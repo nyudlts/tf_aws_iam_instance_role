@@ -6,6 +6,7 @@ variable "builtby" {
   default = "Terraform"
 }
 
+variable "role_policy_name" {}
 variable "role_policy" {}
 
 variable "instance_profile_name" {}
